@@ -1,3 +1,3 @@
 # nishara.github.io
 
-Push codes here & build necessary actions regarding webpage.
+Push codes here & take necessary actions regarding webpage.
