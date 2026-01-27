@@ -19,11 +19,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Nishara",
+    images: ["/Nishara_Thumbnail.jpg"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Nishara | Join the Waitlist",
     description: "Be the first to experience Nishara — an exclusive platform designed to empower and inspire women.",
+    images: ["/Nishara_Thumbnail.jpg"],
   },
   robots: {
     index: true,
@@ -32,7 +34,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#9333ea",
+  themeColor: "#fff1f2",
 };
 
 export default function RootLayout({

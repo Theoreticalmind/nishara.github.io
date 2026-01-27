@@ -85,8 +85,8 @@
   --fuchsia-600: #c026d3;
 
   /* Background & Foreground */
-  --background: #0c0010;
-  --foreground: #fdf2f8;
+  --background: #fff1f2;
+  --foreground: #881337;
 
   /* Theme colors for Tailwind v4 */
   --color-background: var(--background);
@@ -768,10 +768,10 @@ main>footer {
    ============================================ */
 
 .glass {
-  background: rgba(236, 72, 153, 0.05);
+  background: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(236, 72, 153, 0.1);
+  border: 1px solid rgba(244, 63, 94, 0.2);
 }
 
 .glass-dark {
@@ -783,15 +783,15 @@ main>footer {
 
 .glass-card {
   background: linear-gradient(135deg,
-      rgba(236, 72, 153, 0.05) 0%,
-      rgba(244, 114, 182, 0.02) 50%,
-      rgba(249, 168, 212, 0.05) 100%);
+      rgba(255, 255, 255, 0.7) 0%,
+      rgba(255, 241, 242, 0.8) 50%,
+      rgba(255, 228, 230, 0.7) 100%);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(236, 72, 153, 0.1);
+  border: 1px solid rgba(244, 63, 94, 0.2);
   box-shadow:
-    0 8px 32px rgba(236, 72, 153, 0.05),
-    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    0 8px 32px rgba(244, 63, 94, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
 /* ============================================
@@ -800,9 +800,9 @@ main>footer {
 
 .gradient-hero {
   background:
-    radial-gradient(ellipse at 20% 0%, rgba(236, 72, 153, 0.3) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 0%, rgba(244, 114, 182, 0.2) 0%, transparent 50%),
-    radial-gradient(ellipse at 50% 100%, rgba(219, 39, 119, 0.2) 0%, transparent 50%),
+    radial-gradient(ellipse at 20% 0%, rgba(255, 228, 230, 0.8) 0%, transparent 70%),
+    radial-gradient(ellipse at 80% 0%, rgba(254, 205, 211, 0.6) 0%, transparent 70%),
+    radial-gradient(ellipse at 50% 100%, rgba(253, 164, 175, 0.4) 0%, transparent 70%),
     var(--background);
 }
 
@@ -815,11 +815,11 @@ main>footer {
 
 .gradient-text-shimmer {
   background: linear-gradient(90deg,
-      #fce7f3 0%,
-      #f472b6 25%,
-      #fdf2f8 50%,
-      #f472b6 75%,
-      #fce7f3 100%);
+      #be185d 0%,
+      #db2777 25%,
+      #f43f5e 50%,
+      #db2777 75%,
+      #be185d 100%);
   background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;
@@ -1019,8 +1019,8 @@ main>footer {
 @media (max-width: 768px) {
   .gradient-hero {
     background:
-      radial-gradient(ellipse at 50% 0%, rgba(236, 72, 153, 0.3) 0%, transparent 60%),
-      radial-gradient(ellipse at 50% 100%, rgba(219, 39, 119, 0.2) 0%, transparent 60%),
+      radial-gradient(ellipse at 50% 0%, rgba(255, 228, 230, 0.8) 0%, transparent 70%),
+      radial-gradient(ellipse at 50% 100%, rgba(253, 164, 175, 0.4) 0%, transparent 70%),
       var(--background);
   }
 }
