@@ -241,7 +241,7 @@ export default function WaitlistPage() {
                 src="/Nishara_Logo.png"
                 alt="Nishara"
                 fill
-                className="object-contain object-left"
+                className="object-contain object-center md:object-left"
               />
             </div>
 
