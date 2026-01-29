@@ -11,21 +11,28 @@ const languages = [
         label: "English",
         native: "English",
         url: "https://docs.google.com/forms/d/e/1FAIpQLSfYjUglypUm6alut9ta12U5QuMgXffsUC_vA_FHJekPv4WJ5A/viewform?embedded=true",
-        flag: "🇺🇸",
+        icon: "A",
     },
     {
         id: "bn",
         label: "Bangla",
         native: "বাংলা",
         url: "https://docs.google.com/forms/d/e/1FAIpQLSfP0kkPcbM5XMxSqhdSIt8_eV4d-ytEYulRSiraXMzYtC73NQ/viewform?embedded=true",
-        flag: "🇮🇳",
+        icon: "অ",
     },
     {
         id: "hi",
         label: "Hindi",
         native: "हिंदी",
         url: "https://docs.google.com/forms/d/e/1FAIpQLSd-zS_3aOdcUIL3164FIlt0WZfdbyKGeMyQVku8gFq29fI0FA/viewform?embedded=true",
-        flag: "🇮🇳",
+        icon: "अ",
+    },
+    {
+        id: "ta",
+        label: "Tamil",
+        native: "தமிழ்",
+        url: "https://docs.google.com/forms/d/1TAxwY7QoNQ6__wMgAz0XtBdqh_JMxuN2sB0Vn9yGje0/viewform?embedded=true",
+        icon: "அ",
     },
 ];
 
@@ -134,7 +141,7 @@ export default function SurveyModal({ onClose }: SurveyModalProps) {
                                             ${selectedLang === lang.id ? "bg-pink-100" : "bg-gray-100"}
                                             transition-colors duration-200
                                         `}>
-                                            {lang.flag}
+                                            {lang.icon}
                                         </div>
 
                                         {/* Language Text */}
