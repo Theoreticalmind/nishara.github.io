@@ -722,7 +722,7 @@ main>footer {
 }
 
 .animate-shimmer {
-  animation: shimmer 3s ease-in-out infinite;
+  animation: shimmer 3s linear infinite;
 }
 
 .animate-gradient {
@@ -816,9 +816,9 @@ main>footer {
 .gradient-text-shimmer {
   background: linear-gradient(90deg,
       #be185d 0%,
-      #db2777 25%,
-      #f43f5e 50%,
-      #db2777 75%,
+      #db2777 40%,
+      #ffffff 50%,
+      #db2777 60%,
       #be185d 100%);
   background-size: 200% auto;
   -webkit-background-clip: text;
