@@ -31,6 +31,10 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: "/Nishara_Logo.png",
+    apple: "/Nishara_Logo.png",
+  },
 };
 
 export const viewport: Viewport = {
